@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 80px;
+        width: 80px;
+        background-color: steelblue;
+        border: 5px solid black;
+        border-radius: 10px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        animation-name: ghumakad;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: 5;
+        animation-direction:alternate;
+    }
+    @keyframes ghumakad {
+        from {left: 20px}
+        to {right:90px}
+    }
+</style>
+<body>
+    <div class="box">animate</div>
+</body>
+</html>

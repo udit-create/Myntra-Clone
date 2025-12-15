@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration-line: none;
+    padding: 5px;
+    
+}
+header{
+    background-color: aquamarine;
+     height: 30px;
+}
